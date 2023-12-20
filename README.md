@@ -31,6 +31,11 @@ To compare the predictions to the actual museum exhibits create a csv of each na
 An easier way to forcast the data is using a python note book that I have attached. Simply add artistData.csv, artists.pkl, and exhibitHistory.py and run the notebook. This will provide 5 example graphs.
 
 
+Data from the main run can be found here:
+https://drive.google.com/drive/folders/1k9VqzdxlIUjndyFY9EFC98rPAlTduPMd?usp=sharing
+
+
+
 
 Please reach out to us with any questions.
 Nathaniel Hahn - nrh51@case.edu
