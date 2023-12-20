@@ -1,6 +1,6 @@
 ## wiki test api script
 ## simple grabber that takes in a title and date and then searches wikimedia
-## please ask permission before running as this uses a user agent with my name and email to valiadte the request
+
 
 import requests
 import matplotlib.pyplot as plt
@@ -27,7 +27,7 @@ def get_pageviews(article_title, start_date, end_date):
 
     # Set a custom User-Agent header
     headers = {
-        'User-Agent': 'csds133_final/1.1 (Nathaniel Hahn, nrh51@case.edu)'
+        'User-Agent': 'put your user agent here)'  ## edit before running!!
     }
     response = requests.get(url, headers=headers)
     data = response.json()
